@@ -100,7 +100,7 @@ get_vacancies_result <- function(page, prof_id, area_id = NULL, exp_id = NULL) {
 }
 
 # Собираем вакансии #####
-access_token <- 'USERSVOGD6U6GAV4RIU8LL242P9GT7U8FFH1TQPFMFC6P4ER6F4E50SS1G8VG17B' #OAuth токен
+access_token <- '' #OAuth токен
 
 vacancies_url <- 'https://api.hh.ru/vacancies' #путь к вакансиям API hh.ru
 
