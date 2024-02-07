@@ -160,11 +160,11 @@ vacancies_df <- rbind(df_prof_only, df_area_exp, df_area)
 
 ## Устанавливаем коннект с базой
 connection <- dbConnect(RPostgres::Postgres(), 
-                        dbname = 'hr', #имя вашей базы
+                        dbname = 'hr',
                         host = 'localhost',  
                         port = 5432,
                         user = 'postgres', 
-                        password = 'dawFih9JN3bc' #пароль от вашей базы
+                        password = 'dawFih9JN3bc' 
 )
 
 
